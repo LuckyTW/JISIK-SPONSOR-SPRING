@@ -1,9 +1,10 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/jisik
-    username: sa
-    password:
-    driver-class-name: org.h2.Driver
+    url: jdbc:mysql://localhost:3306/jisik_sponsor_spring?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: fhrzl1414!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  #    driver-class-name: org.h2.Driver
 
   jpa:
     hibernate:
